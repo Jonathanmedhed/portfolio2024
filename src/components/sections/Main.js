@@ -61,22 +61,6 @@ const Main = () => {
     }
   };
 
-  const [posts, setPosts] = useState([]);
-  useEffect(() => {
-    fetch('https://api-football-standings.azharimm.site/leagues', {
-      headers: { 'Content-Type': 'multipart/form-data',
-        'Access-Control-Allow-Origin': '*'},
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data);
-        setPosts(data);
-      })
-      .catch((err) => {
-        console.log(err.message);
-      });
-  }, []);
-
   return (
     <div
       className={`main ${option ? "--active" : ""} ${
