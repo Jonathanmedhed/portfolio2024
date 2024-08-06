@@ -13,6 +13,7 @@ import heddrichImg from "../../images/heddrichITSolutions.png";
 import easyPeasyImg from "../../images/easypeasy.png";
 import biekosImg from "../../images/biekos-page.png";
 import biekosWeb from "../../images/biekos-website.png";
+import landingWeb from "../../images/landing.png";
 
 const Projects = ({ option }) => {
   const { t } = useTranslation();
@@ -28,6 +29,13 @@ const Projects = ({ option }) => {
     }, */
 
   const projects = [
+    {
+      img: landingWeb,
+      year: "2024",
+      title: t("global.l4nding"),
+      content: t("global.l4ndingInfo"),
+      link: "https://landing-wine-phi.vercel.app/",
+    },
     {
       img: biekosImg,
       year: "2021-2022",
