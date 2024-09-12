@@ -14,6 +14,7 @@ import easyPeasyImg from "../../images/easypeasy.png";
 import biekosImg from "../../images/biekos-page.png";
 import biekosWeb from "../../images/biekos-website.png";
 import landingWeb from "../../images/landing.png";
+import instaWeb from "../../images/insta-website.png";
 
 const Projects = ({ option }) => {
   const { t } = useTranslation();
@@ -29,6 +30,13 @@ const Projects = ({ option }) => {
     }, */
 
   const projects = [
+    {
+      img: instaWeb,
+      year: "2024",
+      title: t("global.Inst4Web"),
+      content: t("global.Inst4WebInfo"),
+      link: "https://insta-gilt-rho.vercel.app/",
+    },
     {
       img: landingWeb,
       year: "2024",
