@@ -15,6 +15,7 @@ import biekosImg from "../../images/biekos-page.png";
 import biekosWeb from "../../images/biekos-website.png";
 import landingWeb from "../../images/landing.png";
 import instaWeb from "../../images/insta-website.png";
+import snakeGame from "../../images//snake-game.png";
 
 const Projects = ({ option }) => {
   const { t } = useTranslation();
@@ -30,6 +31,13 @@ const Projects = ({ option }) => {
     }, */
 
   const projects = [
+    {
+      img: snakeGame,
+      year: "2024",
+      title: t("global.Sn4keG4me"),
+      content: t("global.Sn4keG4meInfo"),
+      link: "https://snakeing.vercel.app/",
+    },
     {
       img: instaWeb,
       year: "2024",
