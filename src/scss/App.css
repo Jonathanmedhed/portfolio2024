@@ -17368,6 +17368,7 @@ Images
 }
 
 .project {
+  position: relative;
   display: flex;
   flex-direction: column;
   max-width: 17rem;
@@ -17377,6 +17378,21 @@ Images
   box-shadow: 1px 1px 1px 1px #333;
   border-radius: 0.5rem;
   overflow: hidden;
+}
+.project .project-ai {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #28a745;
+  color: whitesmoke;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.2rem 0.5rem;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .project img {
   -o-object-fit: cover;

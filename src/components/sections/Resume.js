@@ -146,8 +146,8 @@ const Resume = ({ language, option }) => {
             rel="noopener noreferrer"
             href={
               language() === "es"
-                ? "https://docs.google.com/document/d/1WBJAKugsGaG-hy7NdhfbxXolTQt_rHbZsuY-xKFFJ1A/edit?usp=sharing"
-                : "https://docs.google.com/document/d/13MNrLJ7cPpZDpzG9LGUUPsPt-wc0oIfeknpuTSG073g/edit?usp=sharing"
+                ? "https://docs.google.com/document/d/1Hl7AapttXNSu_f-obSXoaBBJVdpEbbrdpxwV8AiU0ek/edit?usp=sharing"
+                : "https://docs.google.com/document/d/19GVKyJg3-KUvYnOdNJfTn51FFGDBvc7j_s80uOYacdk/edit?usp=sharing"
             }
             className="link"
           >
@@ -230,8 +230,8 @@ const Resume = ({ language, option }) => {
             rel="noopener noreferrer"
             href={
               language() === "es"
-                ? "https://docs.google.com/document/d/1WBJAKugsGaG-hy7NdhfbxXolTQt_rHbZsuY-xKFFJ1A/edit?usp=sharing"
-                : "https://docs.google.com/document/d/13MNrLJ7cPpZDpzG9LGUUPsPt-wc0oIfeknpuTSG073g/edit?usp=sharing"
+                ? "https://docs.google.com/document/d/1Hl7AapttXNSu_f-obSXoaBBJVdpEbbrdpxwV8AiU0ek/edit?usp=sharing"
+                : "https://docs.google.com/document/d/19GVKyJg3-KUvYnOdNJfTn51FFGDBvc7j_s80uOYacdk/edit?usp=sharing"
             }
             className="link --centered"
           >

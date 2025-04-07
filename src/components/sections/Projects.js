@@ -16,6 +16,7 @@ import biekosWeb from "../../images/biekos-website.png";
 import landingWeb from "../../images/landing.png";
 import instaWeb from "../../images/insta-website.png";
 import snakeGame from "../../images//snake-game.png";
+import msnWeb from "../../images//msn-website.png";
 
 const Projects = ({ option }) => {
   const { t } = useTranslation();
@@ -31,6 +32,14 @@ const Projects = ({ option }) => {
     }, */
 
   const projects = [
+    {
+      img: msnWeb,
+      year: "2025",
+      title: t("global.M3sseng3r"),
+      content: t("global.M3sseng3r1nfo"),
+      link: "https://msn-frontend-mu.vercel.app/",
+      isWithAI: true,
+    },
     {
       img: snakeGame,
       year: "2024",
@@ -119,6 +128,8 @@ const Projects = ({ option }) => {
                 year={item.year}
                 content={item.content}
                 link={item.link}
+                imgType={item.imgType}
+                isWithAI={item.isWithAI}
               />
             </span>
           ))}

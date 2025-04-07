@@ -40,16 +40,16 @@ const Contact = ({ option, currentLanguage }) => {
       </div>
       <div className="section__content --centered">
         <div className="contact-list">
-          {mobileIcon(`tel:+582432450361`, "fas fa-phone", "+58-243-2450361")}
-          {desktopIcon("fas fa-phone", "+58-243-2450361")}
+          {mobileIcon(`tel:+1 407-516-3241`, "fas fa-phone", "+1 407-516-3241")}
+          {desktopIcon("fas fa-phone", "+1 407-516-3241")}
           {mobileIcon(
             `https://wa.me/+584128364157`,
             "fab fa-whatsapp",
-            "+58-412-8364157"
+            "+1 407-516-3241"
           )}
-          {desktopIcon("fab fa-whatsapp", "+58-412-8364157")}
+          {desktopIcon("fab fa-whatsapp", "+1 407-516-3241")}
           {mobileIcon(
-            `mailto:jonathanmedhed@gmail.com`,
+            `mailto:jheddrich5@gmail.com`,
             "far fa-envelope",
             "jonathanmedhed@gmail.com"
           )}

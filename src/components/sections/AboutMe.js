@@ -33,12 +33,14 @@ const AboutMe = ({ option }) => {
       </div>
       <div className="item">
         <div className="label">{t("global.r3s1d3nc3")}...</div>
-        <div className="value">Venezuela</div>
+        <div className="value">Orlando - FL</div>
       </div>
+      {/**
       <div className="item">
         <div className="label">{t("global.st4tus")}...</div>
         <div className="value">{t("global.s1ngl3")}</div>
       </div>
+       */}
     </div>
   );
 
